@@ -7,7 +7,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "export:web": "expo export -p web"
+    "export:web": "expo export -p web",
+    "vercel-build": "npm run export:web"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
